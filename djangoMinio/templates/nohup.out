@@ -1,0 +1,107 @@
+
+  ============================================================================  
+
+    sniarbtej YYDS 2024.2.7
+
+  ============================================================================  
+
+
+[*] premain args: jetbrains
+
+[*] License ID: SNIARBTEJ
+[*] User Name: matoogsm
+[*] Expire Date: 2048-10-24
+[*] Force Generate: false
+  ============================================================================  
+
+platformPrefix: python
+configPath: /home/matoogsm/.config/JetBrains/PyCharm2023.3
+platformPrefix: python
+configPath: /home/matoogsm/.config/JetBrains/PyCharm2023.3
+pluginsPath: /home/matoogsm/.local/share/JetBrains/PyCharm2023.3
+2025-08-21 12:37:27,443 [   1803]   WARN - #c.i.s.ComponentManagerImpl - `preload=true` must be used only for core services (service=com.jetbrains.rdserver.statistics.BackendStatisticsManager, plugin=com.jetbrains.codeWithMe)
+2025-08-21 12:37:27,722 [   2082]   WARN - #c.i.o.v.n.p.PersistentFSLoader - [VFS load problem]: VFS wasn't safely shut down: records.connectionStatus != SAFELY_CLOSED
+2025-08-21 12:37:29,816 [   4176]   WARN - #c.i.o.e.c.i.EditorColorsManagerImpl - Material Oceanic color scheme is missing
+2025-08-21 12:37:29,917 [   4277]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.search.FilenameIndex initializer requests com.intellij.ide.plugins.PluginUtil instance
+2025-08-21 12:37:30,707 [   5067]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2025-08-21 12:37:30,782 [   5142]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2025-08-21 12:37:30,817 [   5177]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2025-08-21 12:37:30,862 [   5222]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2025-08-21 12:37:31,778 [   6138]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.lang.javascript.psi.jsdoc.impl.JSDocCustomTags initializer requests com.intellij.lang.javascript.JSDisposable instance
+2025-08-21 12:37:33,334 [   7694]   WARN - #c.i.s.ComponentManagerImpl - org.zmlx.hg4idea.provider.HgChangeProvider initializer requests com.intellij.openapi.vcs.FileStatusFactory instance
+2025-08-21 12:37:33,342 [   7702]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.LanguageSubstitutors initializer requests com.intellij.psi.LanguageSubstitutors instance
+2025-08-21 12:37:36,220 [  10580]   WARN - #c.i.o.a.i.ActionUpdater - 405 ms to grab EDT for ToolWindowHeader$2#Update@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+2025-08-21 12:37:36,850 [  11210]   WARN - #c.i.o.a.i.ActionUpdater - 627 ms to grab EDT for ToolWindowHeader$2#GetChildren@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+2025-08-21 12:37:37,771 [  12131]   WARN - #c.i.o.a.i.ActionUpdater - 316 ms to grab EDT for DockToolWindowAction#Update@ToolwindowTitle (com.intellij.openapi.wm.impl.DockToolWindowAction)
+2025-08-21 12:37:37,772 [  12132]   WARN - #c.i.o.a.i.ActionUpdater - 322 ms to grab EDT for CollapseAllAction#Update@ToolwindowTitle (com.intellij.ide.actions.CollapseAllAction)
+2025-08-21 12:37:37,804 [  12164]   WARN - #c.i.o.a.i.ActionUpdater - 316 ms to grab EDT for ExpandAllAction#Update@ToolwindowTitle (com.intellij.ide.actions.ExpandAllAction)
+2025-08-21 12:37:38,442 [  12802]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./language-configuration.json` in bundle `/home/matoogsm/Documents/pycharm-professional-2023.3.7/pycharm-2023.3.7/plugins/textmate/lib/bundles/mdx`
+2025-08-21 12:37:39,229 [  13589]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate com.jetbrains.python.index.PyPackageManagerActivity to ProjectActivity [Plugin: com.jetbrains.python.sharedIndexes.downloadable]
+com.intellij.diagnostic.PluginException: Migrate com.jetbrains.python.index.PyPackageManagerActivity to ProjectActivity [Plugin: com.jetbrains.python.sharedIndexes.downloadable]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:277)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:69)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:192)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:191)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2025-08-21 12:37:40,150 [  14510]   WARN - #c.i.i.s.p.i.BundledSharedIndexPostStartupActivity - Skipped 1 pre-built shared indexes: bundled-js-predefined-1d06a55b98c1-985749b364ce-JavaScript-PY-233.15619.17
+2025-08-21 12:37:41,191 [  15551]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.database.console.session.DatabaseSessionManager initializer requests com.intellij.database.console.session.DatabaseSessionViewService instance
+2025-08-21 12:37:41,262 [  15622]   WARN - #c.i.o.a.i.ActionUpdater - 615 ms to grab EDT for JoinCallAction#Update@MainToolbar (com.jetbrains.rd.platform.codeWithMe.telephony.JoinCallAction)
+2025-08-21 12:37:41,283 [  15643]   WARN - #c.i.o.v.n.p.d.e.DurableEnumeratorFactory - [enumerator.mmapped]: .valueToId map is out-of-sync with .valuesLog data -> rebuilding it
+2025-08-21 12:37:43,960 [  18320]   WARN - #c.i.s.ComponentManagerImpl - com.jetbrains.python.PyElementTypes initializer requests com.jetbrains.python.PyElementTypesFacade instance
+2025-08-21 12:37:47,735 [  22095]   WARN - #c.j.p.s.s.PySkeletonRefresher - Some skeletons failed to generate
+2025-08-21 12:37:47,736 [  22096]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._ARC4
+2025-08-21 12:37:47,736 [  22096]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._Salsa20
+2025-08-21 12:37:47,741 [  22101]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._chacha20
+2025-08-21 12:37:47,741 [  22101]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._pkcs1_decode
+2025-08-21 12:37:47,741 [  22101]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_aes
+2025-08-21 12:37:47,741 [  22101]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_aesni
+2025-08-21 12:37:47,742 [  22102]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_arc2
+2025-08-21 12:37:47,742 [  22102]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_blowfish
+2025-08-21 12:37:47,742 [  22102]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_cast
+2025-08-21 12:37:47,742 [  22102]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_cbc
+2025-08-21 12:37:47,742 [  22102]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_cfb
+2025-08-21 12:37:47,743 [  22103]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_ctr
+2025-08-21 12:37:47,743 [  22103]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_des
+2025-08-21 12:37:47,743 [  22103]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_des3
+2025-08-21 12:37:47,743 [  22103]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_ecb
+2025-08-21 12:37:47,743 [  22103]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_eksblowfish
+2025-08-21 12:37:47,743 [  22103]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_ocb
+2025-08-21 12:37:47,747 [  22107]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Cipher._raw_ofb
+2025-08-21 12:37:47,747 [  22107]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._BLAKE2b
+2025-08-21 12:37:47,747 [  22107]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._BLAKE2s
+2025-08-21 12:37:47,747 [  22107]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._MD2
+2025-08-21 12:37:47,747 [  22107]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._MD4
+2025-08-21 12:37:47,748 [  22108]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._MD5
+2025-08-21 12:37:47,748 [  22108]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._RIPEMD160
+2025-08-21 12:37:47,748 [  22108]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._SHA1
+2025-08-21 12:37:47,748 [  22108]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._SHA224
+2025-08-21 12:37:47,748 [  22108]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._SHA256
+2025-08-21 12:37:47,749 [  22109]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._SHA384
+2025-08-21 12:37:47,749 [  22109]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._SHA512
+2025-08-21 12:37:47,749 [  22109]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._ghash_clmul
+2025-08-21 12:37:47,749 [  22109]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._ghash_portable
+2025-08-21 12:37:47,749 [  22109]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._keccak
+2025-08-21 12:37:47,749 [  22109]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Hash._poly1305
+2025-08-21 12:37:47,750 [  22110]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Math._modexp
+2025-08-21 12:37:47,752 [  22112]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Protocol._scrypt
+2025-08-21 12:37:47,752 [  22112]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.PublicKey._curve25519
+2025-08-21 12:37:47,752 [  22112]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.PublicKey._curve448
+2025-08-21 12:37:47,752 [  22112]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.PublicKey._ec_ws
+2025-08-21 12:37:47,752 [  22112]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.PublicKey._ed25519
+2025-08-21 12:37:47,753 [  22113]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.PublicKey._ed448
+2025-08-21 12:37:47,753 [  22113]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Util._cpuid_c
+2025-08-21 12:37:47,753 [  22113]   WARN - #c.j.p.s.s.PySkeletonRefresher - Crypto.Util._strxor
+2025-08-21 12:37:47,753 [  22113]   WARN - #c.j.p.s.s.PySkeletonRefresher - PIL._imagingtk
+2025-08-21 12:37:47,753 [  22113]   WARN - #c.j.p.s.s.PySkeletonRefresher - blib2to3.pgen2.conv
+2025-08-21 12:38:02,461 [  36821]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="WelcomeScreen.CreateDirectoryProject" class="com.jetbrains.python.newProject.steps.PyCharmNewProjectStep"
+2025-08-21 12:38:18,977 [  53337]   WARN - #c.i.o.Disposable - use application as a parent disposable
